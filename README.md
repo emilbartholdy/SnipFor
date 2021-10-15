@@ -54,7 +54,7 @@ Finally, we can register keyboard commands. In `FastScripts` I have the followin
 
 Starting SnipFor
 ```bash
-snipfor start $(pwd) notes.md # Last parameter could be any name for your notes document, here it is notes.md
+snipfor start $(pwd) notes.md # Last parameter could be any name for your notes document, here it is `notes.md`
 ```
 
 Stopping SnipFor
