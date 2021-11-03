@@ -16,10 +16,11 @@ Furthermore, it is recommended that you use `VS Code` for note-taking as it stre
 First we need to be able to select which folder and which document should receive forwarded text and pictures. First we install the `snipfor` command tool that does this.
 
 1. Move this folder to your `/Users/$USER/Library/Scripts` folder.
-2. Put following in `.zshrc`
+2. Put following in `.zshrc` or `.zprofile`
 
   ```bash
-    alias snipfor='/Users/$USER/Library/Scripts/snipfor/snipfor.sh'
+    # SnipFor
+    alias snipfor='/Users/$USER/Library/Scripts/SnipFor/snipfor.sh'
   ```
 Now you should be able to run the `snipfor` command from anywhere (might need to be marked executeable, see below.)
 
